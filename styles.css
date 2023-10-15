@@ -14,8 +14,8 @@ body {
 
 .card-container {
     width: 100%; /* Adjust the width to take up 80% of the screen width */
-    max-width: 70vh; /* Set a maximum width for responsiveness */
-    height: 70vh;
+    max-width: 120vh; /* Set a maximum width for responsiveness */
+    height: 50vh;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(4, 1fr);
