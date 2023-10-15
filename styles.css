@@ -13,7 +13,7 @@ body {
 }
 
 .card-container {
-    width: 220%; /* Adjust the width to take up 80% of the screen width */
+    width: 100%; /* Adjust the width to take up 80% of the screen width */
     max-width: 70vh; /* Set a maximum width for responsiveness */
     height: 70vh;
     display: grid;
@@ -34,7 +34,11 @@ body {
     transform: scale(1);
     transform-style: preserve-3d;
     transition: transform 0.3s;
-    box-shadow: 5px 5px 4px rgba(34, 189, 37, 0.29);
+    cursor: pointer;
+}
+.memory-card:hover{
+    box-shadow: 0px 0px 7px 4px rgba(34, 189, 37, 0.29);
+    transition: 0.5s;
 }
 
 .memory-card:active {
@@ -65,32 +69,34 @@ body {
     backface-visibility: hidden;
     object-fit: cover;
 }
+.button-container {
+    margin: 0 auto;
+    width: auto;
+}
 
 button {
     color: black;
     background-color: rgba(34, 189, 37, 0.29);
-    padding: 18px;
-    border-radius: 17px;
-    font-size: 115px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 10px;
     font-family: cursive;
+    float: right;
+    margin-top: 10px;
 }
 
 button:hover {
     color: #48ff00;
     background: #2b2b30;
     box-shadow: 6px 6px 6px rgba(34, 189, 37, 0.29);
+    cursor: pointer;
 }
 
-.button {
-    margin: auto;
-    margin-top: 15px;
-}
 .matched {
     visibility: hidden;
     opacity: 1;
 }
 
-.memory-card{
-    display:block;
-    margin: 0 auto
+.containers{
+    width: 495px;
 }
