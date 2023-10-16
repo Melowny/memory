@@ -14,8 +14,8 @@ body {
 
 .card-container {
     width: 100%; /* Adjust the width to take up 80% of the screen width */
-    max-width: 120vh; /* Set a maximum width for responsiveness */
-    height: 50vh;
+    max-width: 60vh; /* Set a maximum width for responsiveness */
+    height: 60vh;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(4, 1fr);
@@ -70,8 +70,10 @@ body {
     object-fit: cover;
 }
 .button-container {
-    margin: 0 auto;
+    margin: 650px auto;
+    margin-left: 250px;
     width: auto;
+    position: absolute;
 }
 
 button {
@@ -81,7 +83,7 @@ button {
     border-radius: 5px;
     font-size: 10px;
     font-family: cursive;
-    float: right;
+    float: top;
     margin-top: 10px;
 }
 
@@ -98,5 +100,5 @@ button:hover {
 }
 
 .containers{
-    width: 495px;
+    width: 750px;
 }
