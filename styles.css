@@ -14,11 +14,11 @@ body {
 
 .card-container {
     width: 100%; /* Adjust the width to take up 80% of the screen width */
-    max-width: 60vh; /* Set a maximum width for responsiveness */
-    height: 60vh;
+    max-width: 90vh; /* Set a maximum width for responsiveness */
+    height: 90vh;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
     gap: 10px;
     perspective: 1000px;
     align-content: center; /* Center the grid content vertically */
@@ -100,5 +100,5 @@ button:hover {
 }
 
 .containers{
-    width: 750px;
+    width: 850px;
 }
