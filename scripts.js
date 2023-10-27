@@ -29,8 +29,8 @@ function checkForMatch() {
 function disableCards() {
     firstCard.removeEventListener("click", flipCard);
     secondCard.removeEventListener("click", flipCard);
-    firstCard.style.opacity = 0.2;
-    secondCard.style.opacity = 0.2;
+    firstCard.style.opacity = "0.2";
+    secondCard.style.opacity = "0.2";
 
     resetBoard();
 }
