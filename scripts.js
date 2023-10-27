@@ -27,6 +27,8 @@ function checkForMatch() {
 }
 
 function disableCards() {
+    
+    lockBoard = true;
     setTimeout(() => {
         firstCard.removeEventListener("click", flipCard).style.opacity = "0.2";
         secondCard.removeEventListener("click", flipCard).style.opacity = "0.2";
