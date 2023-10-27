@@ -30,9 +30,9 @@ function disableCards() {
     setTimeout(() => {
         firstCard.removeEventListener("click", flipCard).style.opacity = "0.2";
         secondCard.removeEventListener("click", flipCard).style.opacity = "0.2";
+        resetBoard();
     }, 1500);
 
-    resetBoard();
 }
 
 function resetBoard() {
