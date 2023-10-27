@@ -27,8 +27,10 @@ function checkForMatch() {
 }
 
 function disableCards() {
-    firstCard.removeEventListener("click", flipCard).style.opacity = "0.2";
-    secondCard.removeEventListener("click", flipCard).style.opacity = "0.2";
+    setTimeout(() => {
+        firstCard.removeEventListener("click", flipCard).style.opacity = "0.2";
+        secondCard.removeEventListener("click", flipCard).style.opacity = "0.2";
+    }, 1500);
 
     resetBoard();
 }
